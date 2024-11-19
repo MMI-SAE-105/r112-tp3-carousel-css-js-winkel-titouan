@@ -69,7 +69,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éspace entre le na
 }
 
 .carousel__item {
-  flex: 1;
+  flex: 1 0 260px;
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
   scroll-snap-align: center;
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
